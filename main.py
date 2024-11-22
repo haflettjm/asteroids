@@ -1,1 +1,7 @@
-print("Hello world!")
+import pygame
+
+if __name__ == "__main__":
+    main()
+
+def main():
+    print("hello world!")
