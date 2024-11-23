@@ -10,6 +10,7 @@ def game_loop(gameClock, dt, PlayerX):
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return
+        PlayerX.update(dt)
         black = (0, 0, 0)
         screen_surface = pygame.display.get_surface()
         screen_surface.fill(black)
